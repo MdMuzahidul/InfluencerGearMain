@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --text-primary: #3A3A3A;
+    --text-secondary: #18191F;
+    --text-small: #787885;
+    --text-bold: #0A0826;
+}
+
+/* share styles */
+.total-bg {
+    background-color: #FFFFFF;
+}
+
+/* navbar style */
+
+.navbar {
+    height: 100px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 120px;
+    margin-top: 40px;
+}
+
+.nav-logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+nav>ul {
+    display: flex;
+    gap: 34px;
+}
+
+.navitems {
+    list-style: none;
+}
+
+.navitem {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.banar {
+    height: 475px;
+    width: 1440px;
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: calc(100% - 475px) 475px;
+}
+.banar-container{
+    display: flex;
+    align-items: center;
+}
+.banar-container>div {
+    height: 270px;
+    width: 582px;
+}
+.start-journey{
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: var(--text-primary);
+}
+.banar-text{
+    color: var(--text-primary);
+    margin: 16px 77px 16px 0px;
+}
+.banar-btn{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 56px 10px 24px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+}
+
+.banar-image {
+    background-image: url(../images/Circle\ design.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
