@@ -84,9 +84,13 @@ nav>ul {
     font-size: 1rem;
     color: #FFFFFF;
     font-weight: 700;
-    padding: 10px 56px 10px 24px;
+    padding: 10px 20px 10px 24px;
     border-radius: 41px;
     background-color: #E02C6D;
+    align-items: center;
+}
+.banar-btn>i{
+    padding-left: 8px;
 }
 
 .banar-image {
