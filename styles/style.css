@@ -28,15 +28,17 @@
 
 .navbar {
     height: 100px;
-    max-width: 1440px;
+    max-width: 80%;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 0 120px;
+    /* padding: 0 120px; */
+    margin: 0 auto;
     margin-top: 40px;
 }
 
 .nav-logo {
+    text-transform: uppercase;
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -58,29 +60,36 @@ nav>ul {
 
 .banar {
     height: 475px;
-    width: 1440px;
-    padding: 0 120px;
+    width: 80%;
+    /* padding: 0 120px; */
+    margin: 0px auto;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: calc(100% - 475px) 475px;
 }
-.banar-container{
+
+.banar-container {
     display: flex;
     align-items: center;
 }
+
 .banar-container>div {
     height: 270px;
     width: 582px;
 }
-.start-journey{
+
+.start-journey {
     font-weight: 700;
     font-size: 3.25rem;
     color: var(--text-primary);
 }
-.banar-text{
+
+.banar-text {
     color: var(--text-primary);
     margin: 16px 77px 16px 0px;
 }
-.banar-btn{
+
+.banar-btn {
     font-size: 1rem;
     color: #FFFFFF;
     font-weight: 700;
@@ -89,7 +98,8 @@ nav>ul {
     background-color: #E02C6D;
     align-items: center;
 }
-.banar-btn>i{
+
+.banar-btn>i {
     padding-left: 8px;
 }
 
@@ -98,4 +108,25 @@ nav>ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* compines section style */
+
+
+/* .line2>#line2 {
+    border: 1px;
+    height: 1px;
+    background-image:
+} */
+
+.companise {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1));
+    border-image-slice: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
 }
